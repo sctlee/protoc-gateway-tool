@@ -1,4 +1,4 @@
-FROM daocloud.io/library/golang:1.7.1
+FROM golang:1.8
 
 RUN apt-get update && apt-get install -y git unzip
 
